@@ -28,6 +28,14 @@ export default defineConfig({
     /* Base URL — all page.goto('/...') calls resolve against this */
     baseURL: 'https://www.saucedemo.com',
 
+    /* Show the browser window so test execution is visible */
+    headless: false,
+
+    /* Slow down each action by 500 ms so the browser interactions are readable on screen */
+    launchOptions: {
+      slowMo: 500,
+    },
+
     /* Collect trace on every run for easy debugging in the HTML report */
     trace: 'on',
 

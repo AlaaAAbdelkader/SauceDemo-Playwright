@@ -1,0 +1,12 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Excel temp lock files (created by Office when a file is open)
+~$*.xlsx
+~$*.xls
